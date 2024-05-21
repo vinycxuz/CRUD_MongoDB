@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   res.send('test');
 });
 
-mongoose.connect(`mongodb+srv://crudmongo:${process.env.PASSWORDMONGO}@crudmongo.4v8cpdw.mongodb.net/?retryWrites=true&w=majority&appName=crudmongo`)
+mongoose.connect(`process.env.STRING_CONNECTION`)
 .then(() => {
   console.log('Connected to MongoDB');
 })  
