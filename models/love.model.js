@@ -5,11 +5,10 @@ const loveSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  age: {
-    type: Number,
+  message: {
+    type: String,
     required: true,
   },
-    timestamps: true,
 
 });
 
