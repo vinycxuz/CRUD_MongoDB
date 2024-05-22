@@ -30,6 +30,16 @@ app.post('/love', async (req, res) => {
 }
 );
 
+app.get('/love', async (req, res) => {
+  try {
+    const love = await Love.find({});
+    res.status(200).json(love);
+
+  } catch (error) {
+    res.status(400).send(error);
+  }
+});
+
 mongoose.connect(process.env.STRING_CONNECTION)
 .then(() => {
   console.log('Connected to MongoDB');
