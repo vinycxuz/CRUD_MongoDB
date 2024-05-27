@@ -34,7 +34,8 @@ To run this project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/CRUD_MongoDB.git`
 2. Install the dependencies: `npm install`
-3. Start the server: `npm start`
+3. Create your .env and put your string connection for use MongoDB.
+4. Start the server: `npm start`
 
 Make sure you have MongoDB installed and running on your machine.
 
