@@ -1,6 +1,6 @@
 # CRUD_MongoDB
 
-If you want, use the 0.9v branch for keep going in new projects. In this time, we don't using M.V.C and just has the essential.
+Use the 0.9v branch for keep going in new projects. In this time, we don't using M.V.C and just has the essential.
 
 This repository contains the following files:
 
